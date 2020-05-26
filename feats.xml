@@ -5,7 +5,7 @@
 		<description>DM's Guild Feat.</description>
 		<author>DM's Guild</author>
 		<update version="1.1.1">
-			<file name="feats.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/feats.xml" />
+			<file name="feats.xml" url="https://https://github.com/Beaudewit00/AuroraBuilder/blob/master/feats.xml" />
 		</update>
 	</info>
 	
