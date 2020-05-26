@@ -29,11 +29,16 @@
 		<sheet>
 			<description>Gain access to the Wild Magic Surge table for [Class] as featured in the Wild Magic for Every Class supplement.
 			
-			Wild Magic Surge. Your actions can unleash surges of untamed magic. Immediately after you cast a [Class] spell of first level or higher, or hit a challenging enemy with a non-spell attack for the first time in a round, the DM can have you roll a d20. If you roll a 1 or 20, roll 1d100 on the [Class]’s Wild Magic Surge table to create a random magical effect.
+			Wild Magic Surge. Your actions can unleash surges of untamed magic. Immediately after you cast a [Class] spell of first level or higher, 
+			or hit a challenging enemy with a non-spell attack for the first time in a round, the DM can have you roll a d20. If you roll a 1 or 20, 
+			roll 1d100 on the [Class]’s Wild Magic Surge table to create a random magical effect.
 			
-			Tides of Chaos. You can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a long rest before you can use this feature again.
+			Tides of Chaos. You can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. 
+			Once you do so, you must finish a long rest before you can use this feature again.
 			
-			Any time before you regain the use of Tides of Chaos, the DM can have you roll on the [Class]’s Wild Magic Surge table immediately after you cast a [Class] spell of first level or higher, or hit a challenging enemy with a non-spell attack for the first time in a round. You then regain the use of Tides of Chaos.</description>
+			Any time before you regain the use of Tides of Chaos, the DM can have you roll on the [Class]’s Wild Magic Surge table immediately after 
+			you cast a [Class] spell of first level or higher, or hit a challenging enemy with a non-spell attack for the first time in a round. 
+			You then regain the use of Tides of Chaos.</description>
 		</sheet>
 		<rules>
 			<select type="Ability Score Improvement" name="Wild Magic" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA" />
