@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+	<info>
+		<name>Feats</name>
+		<description>DM's Guild Feat.</description>
+		<author>DM's Guild</author>
+	</info>
+	
+	<element name="Wild Magic" type="Feat" source="DMs Guild" id="ID_DMG_FEAT_WILDMAGIC">
+		<prerequisite>No other form of Wild Magic</prerequisite>
+		<description>
+			<p>Wild Magic for every class.</p>
+			<ul>
+				<li>Increase one ability score by 1, to a maximum of 20.</li>
+				<li>Gain access to the Wild Magic Surge table for [Class] as featured in the Wild Magic for Every Class supplement.</li>
+				<li>Wild Magic Surge. Your actions can unleash surges of untamed magic. Immediately after you cast a [Class] spell of first level or higher, 
+					or hit a challenging enemy with a non-spell attack for the first time in a round, the DM can have you roll a d20. If you roll a 1 or 20, 
+					roll 1d100 on the [Class]’s Wild Magic Surge table to create a random magical effect.</li>
+				<li>Tides of Chaos. You can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. 
+					Once you do so, you must finish a long rest before you can use this feature again.</li>
+				<li>Any time before you regain the use of Tides of Chaos, the DM can have you roll on the [Class]’s Wild Magic Surge table immediately after 
+					you cast a [Class] spell of first level or higher, or hit a challenging enemy with a non-spell attack for the first time in a round. 
+					You then regain the use of Tides of Chaos.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Gain access to the Wild Magic Surge table for [Class] as featured in the Wild Magic for Every Class supplement.
+			Wild Magic Surge. Your actions can unleash surges of untamed magic. Immediately after you cast a [Class] spell of first level or higher, 
+			or hit a challenging enemy with a non-spell attack for the first time in a round, the DM can have you roll a d20. If you roll a 1 or 20, 
+			roll 1d100 on the [Class]’s Wild Magic Surge table to create a random magical effect.
+			Tides of Chaos. You can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. 
+			Once you do so, you must finish a long rest before you can use this feature again.
+			Any time before you regain the use of Tides of Chaos, the DM can have you roll on the [Class]’s Wild Magic Surge table immediately after 
+			you cast a [Class] spell of first level or higher, or hit a challenging enemy with a non-spell attack for the first time in a round. 
+			You then regain the use of Tides of Chaos.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Wild Magic" supports="ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_CONSTITUTION|ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA" />
+		</rules>
+	</element>
+	
+	<!--Feat Ability Score Increase-->
+	<element name="Ability Score Increase (Strength)" type="Ability Score Improvement" source="Player’s Handbook" id="ID_PHB_FEAT_ASI_STRENGTH">
+		<compendium display="false" />
+		<supports>Feat, Wild Magic</supports>
+		<description>
+			<p>Your Strength increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="strength" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Dexterity)" type="Ability Score Improvement" source="Player’s Handbook" id="ID_PHB_FEAT_ASI_DEXTERITY">
+		<compendium display="false" />
+		<supports>Feat, Wild Magic</supports>
+		<description>
+			<p>Your Dexterity increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="dexterity" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Constitution)" type="Ability Score Improvement" source="Player’s Handbook" id="ID_PHB_FEAT_ASI_CONSTITUTION">
+		<compendium display="false" />
+		<supports>Feat, Wild Magic</supports>
+		<description>
+			<p>Your Constitution increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Intelligence)" type="Ability Score Improvement" source="Player’s Handbook" id="ID_PHB_FEAT_ASI_INTELLIGENCE">
+		<compendium display="false" />
+		<supports>Feat, Wild Magic</supports>
+		<description>
+			<p>Your Intelligence increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="intelligence" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Wisdom)" type="Ability Score Improvement" source="Player’s Handbook" id="ID_PHB_FEAT_ASI_WISDOM">
+		<compendium display="false" />
+		<supports>Feat, Wild Magic</supports>
+		<description>
+			<p>Your Wisdom increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="wisdom" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Charisma)" type="Ability Score Improvement" source="Player’s Handbook" id="ID_PHB_FEAT_ASI_CHARISMA">
+		<compendium display="false" />
+		<supports>Feat, Wild Magic</supports>
+		<description>
+			<p>Your Charisma increases by 1.</p>
+		</description>
+		<setters>
+			<set name="allow duplicate">true</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="1" alt="Ability Score Increase" />
+		</rules>
+	</element>
+</elements>
