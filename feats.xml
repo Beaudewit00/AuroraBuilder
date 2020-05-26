@@ -4,6 +4,9 @@
 		<name>Feats</name>
 		<description>DM's Guild Feat.</description>
 		<author>DM's Guild</author>
+		<update version="1.1.1">
+			<file name="feats.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/feats.xml" />
+		</update>
 	</info>
 	
 	<element name="Wild Magic" type="Feat" source="DMs Guild" id="ID_DMG_FEAT_WILDMAGIC">
